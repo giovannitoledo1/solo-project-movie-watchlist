@@ -1,0 +1,43 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#top-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(./img/noom-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    color: #FFFFCC;
+}
+
+#top-container > h1 {
+    font-size: 42px;
+    text-shadow: 2px 2px 3px #FFFFCC;
+    margin-left: 40px;
+    padding: 10px;
+   
+}
+
+#top-container > h3 {
+    font-size: 14px;
+    margin-right: 40px;
+    text-shadow: 2px 2px 3px #FFFFCC;
+    border-radius:3px;
+    padding: 10px;
+}
+
+.clickable-header{
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius:3px;
+}
+
+.clickable-header:hover {
+    background-color: #494444;
+  }
