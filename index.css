@@ -41,3 +41,30 @@ html, body {
 .clickable-header:hover {
     background-color: #494444;
   }
+
+#input-search-container{
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+}
+
+.search-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+.search-input{
+    padding-left: 35px;
+    width: 100%;
+}
+
+.search-icon {
+    position: absolute;
+    left: 10px;
+    color: #888;
+  }
+
+#search-btn {
+    margin: 0px;
+  }
