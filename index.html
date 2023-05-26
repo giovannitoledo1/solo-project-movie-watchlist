@@ -8,17 +8,18 @@
     </head>
     <body>
         <div id="top-container">
-            <h1 class="clickable-header" id="find-your-film">Find your film</h1>
-            <h3 class="clickable-header" id="my-watchlist">My Watchlist</h3>
+            <h1 class="find-your-film" id="find-your-film">Find your film</h1>
+            <h3 class="my-watchlist" id="my-watchlist">My Watchlist</h3>
         </div>
         <div id="input-search-container">
             <div class="search-wrapper">
-                <input type="text" id="text-box" class="search-input" placeholder="Search for a movie"/>
+                <input type="text" id="search-input" class="search-input" placeholder="Search for a movie"/>
+                <button type="button" id="search-btn">Search</button>
                 <i class="fas fa-search search-icon"></i>
             </div>
-            <button type="button" id="search-btn">Search</button>
-        </div>
-        <div id="title-container">
+        </div>      
+        <div id="start-exploring-wrapper">
+            <i class="fas fa-film"></i>   
             <p id="start-exploring">Start Exploring</p>
         </div>
         <script src="index.js"></script>
